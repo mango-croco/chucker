@@ -80,7 +80,10 @@ internal fun LabeledRadioButton(
             text = label,
             style = MaterialTheme.typography.bodyLarge,
             color = MaterialTheme.colorScheme.onBackground,
-            modifier = Modifier.testTag(ChuckerTestTags.LABELED_RADIO_BUTTON_LABEL_TEXT + "_" + label),
+            modifier =
+                Modifier.testTag(
+                    ChuckerTestTags.LABELED_RADIO_BUTTON_LABEL_TEXT + "_" + label,
+                ),
         )
     }
 }
